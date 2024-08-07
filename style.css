@@ -273,3 +273,53 @@ ul,li{
     background-color: #ddd;
     border-radius: 5px;
   }
+
+  #task6{
+    background-color: #4CAF50;
+    .container-6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        width: 80%;
+        margin: auto;
+        padding: 80px 30px;
+        border: 1px solid red;
+
+        button{
+            padding: 10px 7px;
+            border-radius: 7px;
+            outline: none;
+            border: none;
+            background-color: antiquewhite;
+            color: blue;
+            font-size: 18px;
+            cursor: pointer;
+            
+        }
+        .category{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .question-container{
+
+          
+
+                .answer-container{
+
+                    display: grid;
+                    grid-template-columns: repeat(2,6fr);
+                    gap: 20px;
+                   
+                    font-size: 20px;
+                }
+            
+        }
+
+    }
+  }
